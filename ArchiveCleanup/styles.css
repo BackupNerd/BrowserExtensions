@@ -1,0 +1,87 @@
+body {
+    background-color: teal;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    font-size: 1em;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+
+#banner {
+    font-size: 16.8px; /* Decreased font size by 30% */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    white-space: normal; /* Allow wrapping */
+}
+
+#logo {
+    width: 200px; /* Doubled the size */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 0.8em; /* Decreased font size by 20% */
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#subtotal {
+    margin-top: 10px;
+    margin-bottom: 5px; /* Added margin-bottom for spacing */
+    font-size: 1em;
+    color: white;
+}
+
+#help, #about {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 0.8em;
+}
+
+#about {
+    right: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#monthsInput, #searchInput  {
+    width: 70px;
+    height: 35px; /* Match the height of the buttons */
+    margin-right: 10px;
+    padding: 0 10px; /* Adjust padding for better alignment */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+#toggleOldCheckboxes, #toggleSearchCheckboxes {
+    flex-grow: 1;
+    height: 35px; /* Match the height of the input field */
+    margin-top: -1%; /* Move the button up by 5% and then back down by 3% */
+}

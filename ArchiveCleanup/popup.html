@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cove | Backup Manager Archive Cleanup</title>
+    <script src="popup.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="help">?</div>
+    <div id="about">About</div>
+    <img id="logo" src="icons/head-nerd-logo.png" alt="Head Nerd Logo">
+    <div id="banner">Cove | Backup Manager Archive Cleanup</div>
+    <button id="selectCheckboxes">Toggle All</button>
+    <button id="toggleCompletedCheckboxes">Toggle Completed</button>
+    <button id="toggleErrorCheckboxes">Toggle Errors</button>
+    <button id="toggleFailedCheckboxes">Toggle Failed</button>
+    <button id="deselectCheckboxes">Deselect All</button>
+    <div class="flex-container">
+        <input type="number" id="monthsInput" value="12" min="12" max="72">
+        <button id="toggleOldCheckboxes">Toggle > Months</button>
+    </div>
+    <div class="flex-container">
+        <input type="text" id="searchInput" placeholder="Search text">
+        <button id="toggleSearchCheckboxes">Toggle Search</button>
+    </div>
+    <div id="subtotal">0/0</div>
+</body>
+</html>

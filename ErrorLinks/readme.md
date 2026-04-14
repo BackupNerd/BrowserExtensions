@@ -38,7 +38,7 @@ A Chrome/Edge browser extension that turns **N-able Cove Data Protection** error
 ### Option B — Clone This Repo
 
 ```bash
-git clone https://github.com/<your-username>/CoveErrorLinks-Extension.git
+git clone https://github.com/BackupNerd/CoveErrorLinks-Extension.git
 ```
 
 Then load unpacked from the cloned folder (same steps 2–4 above).
